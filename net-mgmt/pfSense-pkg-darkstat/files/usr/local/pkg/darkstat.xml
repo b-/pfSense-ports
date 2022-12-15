@@ -143,11 +143,8 @@
 			<fieldname>path</fieldname>
 			<description>
 				<![CDATA[
-				Change the root path in Darkstat's web server. Use for reverse-proxying Darkstat e.g., with HAProxy.
-				<div class="infoblock">
-				<strong><span class="text-danger">Important:</span></strong><br />
-				- TODO
-				</div>
+				Change the root path in Darkstat's web server. Use for reverse-proxying Darkstat e.g., with HAProxy.<br />
+				NOTE This appears to be unimplemented in darkstat.
 				]]>
 			</description>
 			<type>input</type>
