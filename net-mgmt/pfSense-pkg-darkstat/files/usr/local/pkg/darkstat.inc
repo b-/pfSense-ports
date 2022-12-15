@@ -70,6 +70,11 @@ function sync_package_darkstat() {
 	}
 	$start .= " -p {$port}";
 
+	/* Configure darkstat webgui path */
+	if ($darkstat_config['path'] != "") {
+		$start .= " --base {$darkstat_config['path']}";
+	}
+
 	/* Deal with the rest of configured options here */
 	/* Local Network Traffic */
 	$localnetworkenable = $darkstat_config['localnetworkenable'];
